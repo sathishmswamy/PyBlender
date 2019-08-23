@@ -49,7 +49,7 @@ _cd ..
 cd build\_windows\_Bpy\_x64\_vc15\_Release\bin  
 copy Release\bpy.pyd C:\Python37\Lib\site-packages\  
 copy Release\*.dll C:\Python37\Lib\site-packages\  
-xcopy /E/I Release\2.80 C:\Python37\2.80_  
+xcopy Release\2.80 C:\Python37\2.80  
 
 12. You should now be able to import blender as a python module in any script file with the line  
 _import bpy_
